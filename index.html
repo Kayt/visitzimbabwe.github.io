@@ -6,6 +6,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Twitter Cards meta tags. These help control the way links appear on twitter when this page is shared. See more at https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@_TWITTER_USERNAME">
+    <meta name="twitter:creator" content="@_TWITTER_USERNAME_CREATER_">
+    <meta name="twitter:title" content="Visit Zimbabwe ">
+    <meta name="twitter:description" content="_TWITTER_CARD_DESCRIPTION">
+    <meta name="twitter:image" content="_ABSOLUTE_URL_TO_IMAGE_TO_BE_FEATURED">
+
+    <!--Facebook Opengraph meta tags. these help control the way links appear on facebook when this page is shared  See more at https://developers.facebook.com/docs/sharing/webmasters/ -->
+  <meta property="og:url" content="_SITE_URL" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Visit Zimbabwe" />
+  <meta property="og:description" content="_FACEBOOK_STORIES_DESCRIPTION" />
+  <meta property="og:image" content="_ABSOLUTE_URL_TO_IMAGE_TO_BE_FEATURED" />
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
@@ -18,7 +33,15 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-
+   <!-- Schema Structured Data. See more at https://developers.google.com/search/docs/guides/intro-structured-data-->
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "_SITE_URL",
+        "about":"_WHAT_THE_WEBSITE_IS_ABOUT"
+    }
+    </script>
 
   <style>
     .header {
